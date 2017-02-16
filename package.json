@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gness1804/design-challenge-fitness-site/issues"
   },
-  "homepage": "https://github.com/gness1804/design-challenge-fitness-site#readme"
+  "homepage": "https://github.com/gness1804/design-challenge-fitness-site#readme",
+  "dependencies": {
+    "node-sass": "^4.5.0"
+  }
 }
