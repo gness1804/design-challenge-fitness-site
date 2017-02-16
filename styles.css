@@ -1,5 +1,19 @@
 .column {
   border: 1px solid black;
   display: inline-block;
+  height: 100vh;
   width: 32%;
+}
+
+.today {
+  background-color: #B8D8D8;
+}
+
+.today h2 {
+  font-family: .SFNSText;
+  font-size: 60px;
+  color: #4F6367;
+  text-align: center;
+  text-shadow: 3px 2px 4px rgba(0,0,0,0.50);
+  text-transform: uppercase;
 }
