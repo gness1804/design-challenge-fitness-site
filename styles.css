@@ -1,3 +1,7 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .column {
   border: 1px solid black;
   display: inline-block;
@@ -10,10 +14,28 @@
 }
 
 .today h2 {
-  font-family: .SFNSText;
-  font-size: 60px;
   color: #4F6367;
+  font-size: 60px;
   text-align: center;
   text-shadow: 3px 2px 4px rgba(0,0,0,0.50);
   text-transform: uppercase;
 }
+
+.middle-column-button {
+  background: #EEF5DB;
+  border-radius: 10px;
+  border: 1px solid #979797;
+  color: #4F6367;
+  font-size: 48px;
+  margin: 30px auto;
+}
+
+.workout-button {
+
+}
+
+.meal-plan-button {
+
+}
+
+/* Rectangle 4: */
