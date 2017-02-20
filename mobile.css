@@ -1,5 +1,9 @@
 @media screen and (max-width: 700px) {
 
+  .column {
+    display: block;
+  }
+
   .today h2 {
     font-size: 32px;
   }
