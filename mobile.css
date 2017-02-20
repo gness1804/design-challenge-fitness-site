@@ -1,0 +1,11 @@
+@media screen and (max-width: 700px) {
+
+  .today h2 {
+    font-size: 32px;
+  }
+
+  .middle-column-buttons-container {
+    margin: 30px auto;
+  }
+
+}
