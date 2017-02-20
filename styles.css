@@ -37,6 +37,10 @@ html {
   width: 80%;
 }
 
+.middle-column-button:hover {
+  background-color: #FE5F55;
+}
+
 #calendar {
   width: 80%;
 }
