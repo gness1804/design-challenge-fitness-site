@@ -5,7 +5,8 @@ html {
 .column {
   border: 1px solid black;
   display: inline-block;
-  height: 100vh;
+  /*height: 100vh;*/
+  text-align: center;
   width: 32%;
 }
 
@@ -30,12 +31,8 @@ html {
   margin: 30px auto;
 }
 
-.workout-button {
-
-}
-
-.meal-plan-button {
-
+#calendar {
+  width: 80%;
 }
 
 /* Rectangle 4: */
