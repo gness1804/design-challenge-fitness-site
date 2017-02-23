@@ -1,5 +1,46 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .column {
   border: 1px solid black;
   display: inline-block;
+  /*height: 100vh;*/
+  text-align: center;
   width: 32%;
+}
+
+.today {
+  background-color: #B8D8D8;
+}
+
+.today h2 {
+  color: #4F6367;
+  font-size: 60px;
+  margin: 20px auto;
+  text-align: center;
+  text-shadow: 3px 2px 4px rgba(0,0,0,0.50);
+  text-transform: uppercase;
+}
+
+.middle-column-buttons-container {
+  margin: 50px auto;
+}
+
+.middle-column-button {
+  background: #EEF5DB;
+  border-radius: 10px;
+  border: 1px solid #979797;
+  color: #4F6367;
+  font-size: 30px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.middle-column-button:hover {
+  background-color: #FE5F55;
+}
+
+#calendar {
+  width: 80%;
 }
