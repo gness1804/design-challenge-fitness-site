@@ -1,17 +1,70 @@
 html {
   font-family: 'Open Sans', sans-serif;
+  width: 90vw;
+  height: 90vh;
+  padding-top: 0;
 }
 
 .column {
-  border: 1px solid black;
+  border: 1px solid lightgray;
   display: inline-block;
-  /*height: 100vh;*/
+  height: 100%;
   text-align: center;
   width: 32%;
 }
 
+/*xFIT section*/
+
+.xfit {
+  background-color: #4F6367;
+  padding-top: 20px;
+}
+
+.xfit h2 {
+  color: #FE5F55;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.50);
+  margin: 0;
+}
+
+#weights {
+  transform: scale(.65);
+  margin: 0;
+}
+
+.xfit h3 {
+  color: #EEF5DB;
+  font-size: 26px;
+  margin: 20px 0;
+}
+
+.xfit p {
+  color: #FE5F55;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.workout-container {
+  border: 1px solid #B8D8D8;
+  padding: 5px;
+}
+
+.show-more-container {
+background: #EEF5DB;
+border: 1px solid #979797;
+}
+
+.show-more-container p {
+  color: #4F6367;
+  text-transform: uppercase;
+}
+
+/*TODAY section*/
+
 .today {
   background-color: #B8D8D8;
+  padding: 10px 0;
 }
 
 .today h2 {
@@ -33,7 +86,7 @@ html {
   border: 1px solid #979797;
   color: #4F6367;
   font-size: 30px;
-  margin: 20px auto;
+  margin: 40px 0 10px;
   width: 80%;
 }
 
@@ -43,4 +96,49 @@ html {
 
 #calendar {
   width: 80%;
+  margin-bottom: 55px;
+}
+
+/*Goals section*/
+
+.goals {
+  background-color: #4F6367;
+  padding-top: 20px;
+}
+
+.goals h2 {
+  color: #FE5F55;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(128,128,128,1);
+  margin: 0 0 40px;
+}
+
+.goals p {
+ color: #FE5F55;
+ font-size: 22px;
+ font-weight: 300;
+}
+
+.goal-container {
+  border: 1px solid #B8D8D8;
+  padding: 15px;
+}
+
+.goals-show-more p {
+  color: #4F6367;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.goals h4 {
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px 10px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #4F6367;
+  text-transform: uppercase;
+
 }
