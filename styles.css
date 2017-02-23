@@ -5,7 +5,7 @@ html {
 .column {
   border: 1px solid lightgray;
   display: inline-block;
-  height: 100vh;
+  height: 600px;
   text-align: center;
   width: 32%;
 }
@@ -19,14 +19,16 @@ html {
 .xfit h2 {
   color: #FE5F55;
   font-size: 60px;
-  margin: 20px auto;
   text-align: center;
   text-shadow: 3px 2px 4px rgba(0,0,0,0.50);
-  text-transform: uppercase;
 }
 
 #weights {
   transform: scale(.65);
+}
+
+.xfit p {
+
 }
 
 /*TODAY section*/
@@ -54,7 +56,7 @@ html {
   border: 1px solid #979797;
   color: #4F6367;
   font-size: 30px;
-  margin: 20px auto;
+  margin-top: 20px;
   width: 80%;
 }
 
