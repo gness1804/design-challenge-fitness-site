@@ -17,4 +17,15 @@
     margin: 10px auto;
   }
 
+  .goals {
+    background-color: #4F6367
+  }
+
+  .goals h2 {
+    font-size: 32px;
+    color: #FE5F55;
+    text-shadow: 3px 2px 4px #EEF5DB;
+    text-transform: uppercase;
+  }
+
 }
