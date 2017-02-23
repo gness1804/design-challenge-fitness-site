@@ -16,6 +16,7 @@ html {
 
 .xfit {
   background-color: #4F6367;
+  padding-top: 20px;
 }
 
 .xfit h2 {
@@ -23,10 +24,18 @@ html {
   font-size: 60px;
   text-align: center;
   text-shadow: 3px 2px 4px rgba(0,0,0,0.50);
+  margin: 0;
 }
 
 #weights {
   transform: scale(.65);
+  margin: 0;
+}
+
+.xfit h3 {
+  color: #EEF5DB;
+  font-size: 26px;
+  margin: 20px 0;
 }
 
 .xfit p {
@@ -39,10 +48,21 @@ html {
   padding: 5px;
 }
 
+.show-more-container {
+background: #EEF5DB;
+border: 1px solid #979797;
+}
+
+.show-more-container p {
+  color: #4F6367;
+  text-transform: uppercase;
+}
+
 /*TODAY section*/
 
 .today {
   background-color: #B8D8D8;
+  padding-top: 20px;
 }
 
 .today h2 {
@@ -55,7 +75,7 @@ html {
 }
 
 .middle-column-buttons-container {
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .middle-column-button {
@@ -74,5 +94,42 @@ html {
 
 #calendar {
   width: 80%;
-  margin-bottom: 85px;
+  margin-bottom: 55px;
+}
+
+/*Goals section*/
+
+.goals {
+  background-color: #4F6367;
+  padding-top: 20px;
+}
+
+.goals h2 {
+  color: #FE5F55;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 3px 2px 4px rgba(0,0,0,0.50);
+  margin: 0;
+}
+
+.goals p {
+ color: #FE5F55;
+ font-size: 20px;
+ font-weight: 300;
+ font-style: normal;
+}
+
+.goals-container {
+  border: 1px solid #B8D8D8;
+  padding: 5px;
+}
+
+.show-more-container {
+background: #EEF5DB;
+border: 1px solid #979797;
+}
+
+.show-more-container p {
+  color: #4F6367;
+  text-transform: uppercase;
 }
