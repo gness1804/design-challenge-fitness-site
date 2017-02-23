@@ -17,4 +17,49 @@
     margin: 10px auto;
   }
 
+  .goals {
+    background-color: #4F6367
+  }
+
+  .goals h2 {
+    font-size: 32px;
+    color: #FE5F55;
+    text-shadow: 3px 2px 4px #EEF5DB;
+    text-transform: uppercase;
+  }
+
+  .goal-container {
+    border: 1px solid #B8D8D8;
+    padding: 5px;
+  }
+
+  .goal {
+    color: #FE5F55;
+    font-size: 14px;
+  }
+
+  .show-more-container {  
+  background: #EEF5DB;
+  border: 1px solid #979797;
+  margin-bottom: 20px;
+  }
+
+  .show-more-container p {
+    color: #4F6367;
+    text-transform: uppercase;
+  }
+
+  .nothing-is-impossible-container {
+   background-color: #FFF; 
+   border: 1px solid #979797;
+   border-radius: 10px;
+   margin-bottom: 20px;
+
+  }
+
+  .nothing-is-impossible-container p {
+    color: #4F6367;
+    text-transform: uppercase;
+  }
+
 }
