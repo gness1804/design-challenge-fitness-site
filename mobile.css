@@ -41,6 +41,7 @@
   .show-more-container {  
   background: #EEF5DB;
   border: 1px solid #979797;
+  margin-bottom: 20px;
   }
 
   .show-more-container p {
@@ -52,6 +53,8 @@
    background-color: #FFF; 
    border: 1px solid #979797;
    border-radius: 10px;
+   margin-bottom: 20px;
+
   }
 
   .nothing-is-impossible-container p {
