@@ -38,4 +38,25 @@
     font-size: 14px;
   }
 
+  .show-more-container {  
+  background: #EEF5DB;
+  border: 1px solid #979797;
+  }
+
+  .show-more-container p {
+    color: #4F6367;
+    text-transform: uppercase;
+  }
+
+  .nothing-is-impossible-container {
+   background-color: #FFF; 
+   border: 1px solid #979797;
+   border-radius: 10px;
+  }
+
+  .nothing-is-impossible-container p {
+    color: #4F6367;
+    text-transform: uppercase;
+  }
+
 }
